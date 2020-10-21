@@ -1,0 +1,62 @@
+{
+  "{\"sourceRoot\":\"C:\\\\Users\\\\Vika\\\\src\\\\\",\"caller\":{\"name\":\"@babel/node\"},\"cwd\":\"C:\\\\Users\\\\Vika\",\"filename\":\"C:\\\\Users\\\\Vika\\\\src\\\\index.js\",\"cloneInputAst\":true,\"babelrc\":false,\"configFile\":false,\"passPerPreset\":false,\"envName\":\"development\",\"root\":\"C:\\\\Users\\\\Vika\",\"plugins\":[],\"presets\":[]}:7.11.6": {
+    "metadata": {},
+    "options": {
+      "sourceRoot": "C:\\Users\\Vika\\src\\",
+      "caller": {
+        "name": "@babel/node"
+      },
+      "cwd": "C:\\Users\\Vika",
+      "filename": "C:\\Users\\Vika\\src\\index.js",
+      "cloneInputAst": true,
+      "babelrc": false,
+      "configFile": false,
+      "envName": "development",
+      "root": "C:\\Users\\Vika",
+      "sourceMaps": "both",
+      "ast": false,
+      "passPerPreset": false,
+      "plugins": [],
+      "presets": [],
+      "parserOpts": {
+        "sourceType": "module",
+        "sourceFileName": "C:\\Users\\Vika\\src\\index.js",
+        "plugins": []
+      },
+      "generatorOpts": {
+        "filename": "C:\\Users\\Vika\\src\\index.js",
+        "comments": true,
+        "compact": "auto",
+        "sourceMaps": "both",
+        "sourceRoot": "C:\\Users\\Vika\\src\\",
+        "sourceFileName": "index.js"
+      }
+    },
+    "ast": null,
+    "code": "import express from \"express\";\nimport apiRouter from \"./api\";\nconst server = new express();\nserver.use(express.urlencoded());\nserver.use(express.json());\nserver.use(\"/api\", apiRouter);\nserver.listen(5000);\nconsole.log(\"http://localhost:5000\");\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImV4cHJlc3MiLCJhcGlSb3V0ZXIiLCJzZXJ2ZXIiLCJ1c2UiLCJ1cmxlbmNvZGVkIiwianNvbiIsImxpc3RlbiIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiJBQUFBLE9BQU9BLE9BQVAsTUFBb0IsU0FBcEI7QUFDQSxPQUFPQyxTQUFQLE1BQXNCLE9BQXRCO0FBRUEsTUFBTUMsTUFBTSxHQUFHLElBQUlGLE9BQUosRUFBZjtBQUNBRSxNQUFNLENBQUNDLEdBQVAsQ0FBV0gsT0FBTyxDQUFDSSxVQUFSLEVBQVg7QUFDQUYsTUFBTSxDQUFDQyxHQUFQLENBQVdILE9BQU8sQ0FBQ0ssSUFBUixFQUFYO0FBQ0FILE1BQU0sQ0FBQ0MsR0FBUCxDQUFXLE1BQVgsRUFBbUJGLFNBQW5CO0FBQ0FDLE1BQU0sQ0FBQ0ksTUFBUCxDQUFjLElBQWQ7QUFFQUMsT0FBTyxDQUFDQyxHQUFSLENBQVksdUJBQVoiLCJzb3VyY2VSb290IjoiQzpcXFVzZXJzXFxWaWthXFxzcmNcXCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gXCJleHByZXNzXCI7XHJcbmltcG9ydCBhcGlSb3V0ZXIgZnJvbSBcIi4vYXBpXCI7XHJcblxyXG5jb25zdCBzZXJ2ZXIgPSBuZXcgZXhwcmVzcygpO1xyXG5zZXJ2ZXIudXNlKGV4cHJlc3MudXJsZW5jb2RlZCgpKTtcclxuc2VydmVyLnVzZShleHByZXNzLmpzb24oKSk7XHJcbnNlcnZlci51c2UoXCIvYXBpXCIsIGFwaVJvdXRlcik7XHJcbnNlcnZlci5saXN0ZW4oNTAwMCk7XHJcblxyXG5jb25zb2xlLmxvZyhcImh0dHA6Ly9sb2NhbGhvc3Q6NTAwMFwiKTtcclxuIl19",
+    "map": {
+      "version": 3,
+      "sources": [
+        "index.js"
+      ],
+      "names": [
+        "express",
+        "apiRouter",
+        "server",
+        "use",
+        "urlencoded",
+        "json",
+        "listen",
+        "console",
+        "log"
+      ],
+      "mappings": "AAAA,OAAOA,OAAP,MAAoB,SAApB;AACA,OAAOC,SAAP,MAAsB,OAAtB;AAEA,MAAMC,MAAM,GAAG,IAAIF,OAAJ,EAAf;AACAE,MAAM,CAACC,GAAP,CAAWH,OAAO,CAACI,UAAR,EAAX;AACAF,MAAM,CAACC,GAAP,CAAWH,OAAO,CAACK,IAAR,EAAX;AACAH,MAAM,CAACC,GAAP,CAAW,MAAX,EAAmBF,SAAnB;AACAC,MAAM,CAACI,MAAP,CAAc,IAAd;AAEAC,OAAO,CAACC,GAAR,CAAY,uBAAZ",
+      "sourceRoot": "C:\\Users\\Vika\\src\\",
+      "sourcesContent": [
+        "import express from \"express\";\r\nimport apiRouter from \"./api\";\r\n\r\nconst server = new express();\r\nserver.use(express.urlencoded());\r\nserver.use(express.json());\r\nserver.use(\"/api\", apiRouter);\r\nserver.listen(5000);\r\n\r\nconsole.log(\"http://localhost:5000\");\r\n"
+      ]
+    },
+    "sourceType": "module",
+    "mtime": 1599927944884
+  }
+}
